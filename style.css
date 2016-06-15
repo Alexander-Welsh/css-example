@@ -1,0 +1,65 @@
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+
+}
+
+.image{
+	border-bottom:1px solid grey;
+	padding:5px;
+	display:inline-block;
+}
+.big{
+	height:250px;
+	width:250px;
+	border:1px solid grey;
+	margin:0px 5px 5px 0px;
+}
+
+.image-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 250px;
+}
+
+.image-number{
+	font-size:10px;
+}
+
+
+.right{
+	width:150px;
+	float:right;
+	clear:both;
+}
+
+
+.image-caption{
+	font-size:10px;
+	float:right;
+	text-align: right; 
+
+}
+.authors{
+	float:right;
+	padding-left:2px;
+}
+
+.small{
+	height:20px;
+	width:20px;	
+	float: right;
+}
+
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
